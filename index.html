@@ -21,7 +21,7 @@
 ██   ████ ██   ██   ████   ██████  ██   ██ ██   ██ 
 -->
         <header class="p-3 bg-dark text-white">
-            <div class="d-flex flex-wrap justify-content-center justify-content-lg-start">
+            <div class="col-6 offset-3 d-flex flex-wrap justify-content-center justify-content-lg-start">
                 <div class="col-6">
                     <h1 class="text-primary">Valentin Dubrulle</h1>
                     <h2 class="text-primary">Communication web</h2>
@@ -53,6 +53,21 @@
                 </div>
             </div>
         </div>
+        <!--
+██████  ██████   ██████  ██████  ██    ██  ██████ ████████ 
+██   ██ ██   ██ ██    ██ ██   ██ ██    ██ ██         ██    
+██████  ██████  ██    ██ ██   ██ ██    ██ ██         ██    
+██      ██   ██ ██    ██ ██   ██ ██    ██ ██         ██    
+██      ██   ██  ██████  ██████   ██████   ██████    ██    
+-->
+        <div class="rounded position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light text-dark">
+            <div class="col-md-5 p-lg-5 mx-auto my-5">
+                <div class="rounded float-start"><img src="https://via.placeholder.com/150x150/cccccc/969696" alt=""></div>
+                <h1 class="display-4 fw-normal">Informatique et Web</h1>
+                <p class="lead fw-normal">Vous avez des besoins, j'ai des compétences.</p>
+            </div>
+            <div class="rounded mx-auto d-block"><img src="https://via.placeholder.com/150x150/cccccc/969696" alt=""></div>
+        </div>
         <!--           
 ████████  █████  ██████  
    ██    ██   ██ ██   ██ 
@@ -60,8 +75,8 @@
    ██    ██   ██ ██   ██ 
    ██    ██   ██ ██████  
 -->
-        <div class="container">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+        <div class="col-8 offset-2">
+            <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Développement</button>
                 </li>
@@ -70,6 +85,9 @@
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Design</button>
+                </li>
+                <li class="nav-item" role="parcours">
+                    <button class="nav-link" id="pills-parcours-tab" data-bs-toggle="pill" data-bs-target="#pills-parcours" type="button" role="tab" aria-controls="pills-parcours" aria-selected="false">Parcours</button>
                 </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
@@ -82,8 +100,6 @@
 -->
 
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                    <h2 class="text-primary">Développement</h2>
-                    <img src="https://www.dubrulle.ovh/images/pic04.jpg" class="img-thumbnail col-6" alt="">
                     <p class="justify-content">C'est en 2007 que j'ai créé mon premier site internet pour un restaurant qui ouvrait.<br> Suite à cela, j'ai commencé à m'intéresser au développement de site web afin de mieux en comprendre les rouages.<br> J'ai ainsi travaillé avec
                         les langages <strong>HTML, CSS et PHP</strong> puis l'utilisation de <strong>CMS</strong> comme Wordpress et Typo3 afin d'accélérer le développement.<br>
                         <br> Lors de cette montée en compétence, mes intérêts ont évolués et je me suis donc également orienté vers des langages qui ne sont pas orientés web.<br>
@@ -100,8 +116,6 @@
 -->
 
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                    <h2 class="text-primary">Administration système</h2>
-                    <img src="https://www.dubrulle.ovh/images/pic05.jpg" class="img-thumbnail col-6" alt="">
                     <p>C'est dans le cadre de ma formation à la Manche Open School que j'ai pu aquérir mes premières connaissances sur ce sujet.<br><br> Je suis aujourd'hui en mesure de <strong>créer un réseau</strong> d'entreprise avec les différents services
                         nécessaires à son bon fonctionnement et sa sécurité.<br>
                         <br>Une fois cette étape réalisée, je suis également capable de mettre en place une <strong>infrastructure numérique</strong> en accord avec les besoins tant pour assurer une surveillance constante que pour fournir des outils qui
@@ -119,8 +133,6 @@
 -->
 
                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                    <h2 class="text-primary">Design</h2>
-                    <img src="https://www.dubrulle.ovh/images/pic07.jpg" class="img-thumbnail col-6" alt="">
                     <p>
                         Bénéficiant de plusieurs outils et ayant réalisé de nombreux logos, je peux rapidement faire une première ébauche après avoir compris votre activité, ce que vous souhaitez transmettre en terme d’image et les tendances actuelles que vous aimez. Et si vous
                         n’avez que peu d’idées, je vous accompagne pour que vous ayez un logo qui vous plaise et corresponde à votre entreprise.
@@ -130,34 +142,34 @@
                         logiciels ont un coût démesuré. Alors, tournez, je m’occuperais du montage. Et si vous n’avez pas ou peu de contenu vidéo, on peut facilement trouver des séquences qui vous plairons et saurons compenser.
                     </p>
                 </div>
-            </div>
-        </div>
-        <!--            
+                <!--            
 ██████   █████  ██████   ██████  ██████  ██    ██ ██████  ███████ 
 ██   ██ ██   ██ ██   ██ ██      ██    ██ ██    ██ ██   ██ ██      
 ██████  ███████ ██████  ██      ██    ██ ██    ██ ██████  ███████ 
 ██      ██   ██ ██   ██ ██      ██    ██ ██    ██ ██   ██      ██ 
 ██      ██   ██ ██   ██  ██████  ██████   ██████  ██   ██ ███████ 
 -->
-        <h3 class="text-primary border-top">Mon parcours</h3>
-        <h5>Ma première carrière</h5>
-        <p>Étant enfant, j'étais intéressé par l'informatique et l'hôtellerie-restauration. J'ai suivi un bac technologique Hôtellerie-Restauration suivi d'un BTS Responsable de l'Hébergement au Lycée Hôtelier du Touquet. J'avais alors décidé de conserver
-            l'informatique en tant que passion.<br> J'ai alors rapidement été embauché par le groupe Accor <a href="https://fr.wikipedia.org/wiki/Accor" target="blank"> (plus d'informations sur le groupe) </a> pour lequel j'ai travaillé pendant plus de
-            7 ans. J'ai travaillé en France mais aussi à l'étranger : en Allemagne et en Grande-Bretagne (à Londres).<br> J'ai débuté en tant que réceptionniste jusqu'à devenir assistant de direction grâce à une rigueur, un sens de l'organisation et une
-            fiabilité reconnus par mes pairs. Lors de mon dernier poste à l'hôtel Ibis London Greenwich, j'ai appris à gérer le quotidien d'un hôtel de 120 chambres ainsi que le management d'une équipe.<br> Durant cette période, mon employeur, ayant détecté
-            mes capacités informatiques, a régulièrement fait appel à moi pour des travaux divers dans ce domaine, tels des manipulations sur des serveurs ou la création d'outils de communication pour faciliter des formations internes.<br> J'ai ensuite
-            eu une décision à prendre : entamer une session de formation interne en Grande-Bretagne afin obtenir une promotion dans l'hôtellerie ou rentrer en France pour creuser les fondations vers une professionnalisation de ma passion tout en fondant
-            ma propre famille. Suite à de nombreuses discussions personnelles et professionnelles, j'ai pris la décision de revenir en France.
-        </p>
-        <h5>Ma reconversion professionnelle</h5>
-        Il a d'abord fallu trouver une école tout en me formant en ligne. J'ai ensuite eu la chance de trouver la Manche Open School <a href="https://blog.emploi-store.fr/manche-open-school-ecole-seconde-chance-former-secteur-numerique/" target="blank">(leur site ayant fermé, il s'agit là d'un article)</a>        qui recherchait des candidats motivés.<br> Grâce aux compétences que j'avais acquises, celles engrangées lors de ma recherche et à la formation que j'ai validées à la Manche Open School, je suis aujourd'hui capable de proposer mes services à une
-        entreprise dans le domaine de l'informatique.<br> Suite à ce parcours, j'ai été embauché et CODiLOG <a href="http://codilog.fr/" target="blank">(plus d'informations sur l'entreprise)</a> a pooursuivi ma formation, en tant qu'administrateur-consultant
-        sur le logiciel SAP. Après y avoir travaillé pendant un an, j'ai pu continuer en tant qu'administrateur système et réseau auprès de FactorFX <a href="http://factorfx.com/" target="blank">(plus d'informations sur l'entreprise)</a>
-        </p>
-        <h5>Mes passions</h5>
-        J'apprécie aujourd'hui de pouvoir à la fois faire évoluer mes connaissances, fournir satisfaction dans mon nouveau job et passer du temps avec ma famille. J'aide également bénévolement quelques associations dans leur communication numériques.<br>        Je participe aussi à quelques concours dans l'informatique comme le hackathon organisé par Granville Digital ou le startup week-end de Saint-Lô. Ces concours m'aident à réfléchir différemment tout en me permettant de m’améliorer encore sur l'organisation,
-        le travail en équipe, la créativité et la présentation d’un projet.
-        </p>
+                <div class="tab-pane fade" id="pills-parcours" role="tabpanel" aria-labelledby="pills-parcours-tab">
+                    <h5>Ma première carrière</h5>
+                    <p>Étant enfant, j'étais intéressé par l'informatique et l'hôtellerie-restauration. J'ai suivi un bac technologique Hôtellerie-Restauration suivi d'un BTS Responsable de l'Hébergement au Lycée Hôtelier du Touquet. J'avais alors décidé
+                        de conserver l'informatique en tant que passion.<br> J'ai alors rapidement été embauché par le groupe Accor <a href="https://fr.wikipedia.org/wiki/Accor" target="blank"> (plus d'informations sur le groupe) </a> pour lequel j'ai
+                        travaillé pendant plus de 7 ans. J'ai travaillé en France mais aussi à l'étranger : en Allemagne et en Grande-Bretagne (à Londres).<br> J'ai débuté en tant que réceptionniste jusqu'à devenir assistant de direction grâce à une rigueur,
+                        un sens de l'organisation et une fiabilité reconnus par mes pairs. Lors de mon dernier poste à l'hôtel Ibis London Greenwich, j'ai appris à gérer le quotidien d'un hôtel de 120 chambres ainsi que le management d'une équipe.<br>                        Durant cette période, mon employeur, ayant détecté mes capacités informatiques, a régulièrement fait appel à moi pour des travaux divers dans ce domaine, tels des manipulations sur des serveurs ou la création d'outils de communication
+                        pour faciliter des formations internes.<br> J'ai ensuite eu une décision à prendre : entamer une session de formation interne en Grande-Bretagne afin obtenir une promotion dans l'hôtellerie ou rentrer en France pour creuser les
+                        fondations vers une professionnalisation de ma passion tout en fondant ma propre famille. Suite à de nombreuses discussions personnelles et professionnelles, j'ai pris la décision de revenir en France.
+                    </p>
+                    <h5>Ma reconversion professionnelle</h5>
+                    Il a d'abord fallu trouver une école tout en me formant en ligne. J'ai ensuite eu la chance de trouver la Manche Open School <a href="https://blog.emploi-store.fr/manche-open-school-ecole-seconde-chance-former-secteur-numerique/" target="blank">(leur site ayant fermé, il s'agit là d'un article)</a>                    qui recherchait des candidats motivés.<br> Grâce aux compétences que j'avais acquises, celles engrangées lors de ma recherche et à la formation que j'ai validées à la Manche Open School, je suis aujourd'hui capable de proposer mes
+                    services à une entreprise dans le domaine de l'informatique.<br> Suite à ce parcours, j'ai été embauché et CODiLOG <a href="http://codilog.fr/" target="blank">(plus d'informations sur l'entreprise)</a> a pooursuivi ma formation, en
+                    tant qu'administrateur-consultant sur le logiciel SAP. Après y avoir travaillé pendant un an, j'ai pu continuer en tant qu'administrateur système et réseau auprès de FactorFX <a href="http://factorfx.com/" target="blank">(plus d'informations sur l'entreprise)</a>
+                    </p>
+                    <h5>Mes passions</h5>
+                    J'apprécie aujourd'hui de pouvoir à la fois faire évoluer mes connaissances, fournir satisfaction dans mon nouveau job et passer du temps avec ma famille. J'aide également bénévolement quelques associations dans leur communication numériques.<br>                    Je participe aussi à quelques concours dans l'informatique comme le hackathon organisé par Granville Digital ou le startup week-end de Saint-Lô. Ces concours m'aident à réfléchir différemment tout en me permettant de m’améliorer encore
+                    sur l'organisation, le travail en équipe, la créativité et la présentation d’un projet.
+                    </p>
+                </div>
+            </div>
+        </div>
         <!--            
  ██████  ██████   ██████  ██████  ██████  
 ██      ██    ██ ██    ██ ██   ██ ██   ██ 
