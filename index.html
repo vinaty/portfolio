@@ -7,32 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="icon" href="https://vdnet.fr/wp-content/uploads/2021/11/vdnet-favicon-100x100.png" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 </head>
 
-<body>
-    <section class="container-fluid bg-dark text-light" id="top">
-        <!--            
+<body class="bg-dark">
+    <section class="container-fluid text-light" id="top">
+<!--            
 ███    ██  █████  ██    ██ ██████   █████  ██████  
 ████   ██ ██   ██ ██    ██ ██   ██ ██   ██ ██   ██ 
 ██ ██  ██ ███████ ██    ██ ██████  ███████ ██████  
 ██  ██ ██ ██   ██  ██  ██  ██   ██ ██   ██ ██   ██ 
 ██   ████ ██   ██   ████   ██████  ██   ██ ██   ██ 
 -->
-        <header class="p-3 bg-dark text-white">
+        <header class="p-3 text-white">
             <div class="col-6 offset-3 d-flex flex-wrap justify-content-center justify-content-lg-start">
                 <div class="col-6">
                     <h1 class="text-primary">Valentin Dubrulle</h1>
-                    <h2 class="text-primary">Communication web</h2>
+                    <h3 class="text-primary">Référent numérique Open Source</h3>
                 </div>
                 <div class="nav col-6 justify-content-end">
-                    <a href="https://www.dubrulle.ovh/assets/ResumeVD.pdf">
+                    <a href="./CvVD.pdf">
                         <button type="button" class="btn btn-outline-light me-2">Mon CV</button></a>
                 </div>
             </div>
         </header>
-        <!--
+<!--
  ██████ ████████  █████  
 ██         ██    ██   ██ 
 ██         ██    ███████ 
@@ -43,32 +44,19 @@
             <i class="bi display-5 bi-bookmark-star-fill"></i>
             <h2 class="display-5 fw-bold">Contactez moi !</h2>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Si vous ne souhaitez pas lire le contenu du site,<br>cliquez sur ces boutons pour trouver l'information que vous cherchez</p>
+                <p class="lead mb-4">Cliquez sur ces boutons pour trouver l'information que vous cherchez<br>si vous
+                    connaissez déjà mon parcours</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                     <a href="#coord">
-                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Voir mes coordonnées</button></a>
-                    <a href="https://www.dubrulle.ovh/assets/ResumeVD.pdf">
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Voir mes
+                            coordonnées</button></a>
+                    <a href="./CvVD.pdf">
                         <button type="button" class="btn btn-outline-secondary btn-lg px-4">Consultez mon CV</button>
                     </a>
                 </div>
             </div>
         </div>
-        <!--
-██████  ██████   ██████  ██████  ██    ██  ██████ ████████ 
-██   ██ ██   ██ ██    ██ ██   ██ ██    ██ ██         ██    
-██████  ██████  ██    ██ ██   ██ ██    ██ ██         ██    
-██      ██   ██ ██    ██ ██   ██ ██    ██ ██         ██    
-██      ██   ██  ██████  ██████   ██████   ██████    ██    
--->
-        <div class="rounded position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light text-dark">
-            <div class="col-md-5 p-lg-5 mx-auto my-5">
-                <div class="rounded float-start"><img src="https://via.placeholder.com/150x150/cccccc/969696" alt=""></div>
-                <h1 class="display-4 fw-normal">Informatique et Web</h1>
-                <p class="lead fw-normal">Vous avez des besoins, j'ai des compétences.</p>
-            </div>
-            <div class="rounded mx-auto d-block"><img src="https://via.placeholder.com/150x150/cccccc/969696" alt=""></div>
-        </div>
-        <!--           
+<!--           
 ████████  █████  ██████  
    ██    ██   ██ ██   ██ 
    ██    ███████ ██████  
@@ -78,20 +66,28 @@
         <div class="col-8 offset-2">
             <ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Développement</button>
+                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
+                        aria-selected="true">Développement</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Adminsys</button>
+                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
+                        aria-selected="false">Adminsys</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Design</button>
+                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
+                        aria-selected="false">Design</button>
                 </li>
                 <li class="nav-item" role="parcours">
-                    <button class="nav-link" id="pills-parcours-tab" data-bs-toggle="pill" data-bs-target="#pills-parcours" type="button" role="tab" aria-controls="pills-parcours" aria-selected="false">Parcours</button>
+                    <button class="nav-link" id="pills-parcours-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-parcours" type="button" role="tab" aria-controls="pills-parcours"
+                        aria-selected="false">Parcours</button>
                 </li>
             </ul>
             <div class="tab-content" id="pills-tabContent">
-                <!--
+<!--
 ██████  ███████ ██    ██ 
 ██   ██ ██      ██    ██ 
 ██   ██ █████   ██    ██ 
@@ -100,14 +96,15 @@
 -->
 
                 <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                    <p class="justify-content">C'est en 2007 que j'ai créé mon premier site internet pour un restaurant qui ouvrait.<br> Suite à cela, j'ai commencé à m'intéresser au développement de site web afin de mieux en comprendre les rouages.<br> J'ai ainsi travaillé avec
-                        les langages <strong>HTML, CSS et PHP</strong> puis l'utilisation de <strong>CMS</strong> comme Wordpress et Typo3 afin d'accélérer le développement.<br>
-                        <br> Lors de cette montée en compétence, mes intérêts ont évolués et je me suis donc également orienté vers des langages qui ne sont pas orientés web.<br>
-                        <br>A titre d'exemple, un défi personnel m'a poussé à monter en compétence pendant une semaine sur <strong>Python</strong> afin de pouvoir créer un jeu vidéo en une journée (d'une durée d'environ 10 minutes).<br>
-                        <br>Travaillant sous Linux, j'ai aussi l'habitude du <strong>bash</strong> et de l'écriture de scrypts.
+                    <p>
+                        Mon domaine de prédilection est le <strong>web</strong>, mes compétences y sont donc concentrés.<br>
+                        J'ai cependant travaillé la programmation "classique" sur <strong>Java</strong> (pour la programmation d'application Android) et <strong>Python</strong> (jusqu'à développer un jeu-vidéo ou des applications IoT pour RaspberryPi).<br><br>
+                        J'ai commencé à développer mon premier site internet en 2007, apprenant par la même les bases <strong>HTML et CSS</strong>.<br>
+                        Au fil des années, j'ai su approfondir ces compétences en ajoutant <strong>PHP, SQL et Javascript</strong>.<br>
+                        Passioné par l'<strong>IoT</strong>, j'ai l'habitude d'écrire en C++ pour programmer des Arduino ou des NodeMCU.
                     </p>
                 </div>
-                <!--    
+<!--    
  █████  ██████  ███    ███ ██ ███    ██ 
 ██   ██ ██   ██ ████  ████ ██ ████   ██ 
 ███████ ██   ██ ██ ████ ██ ██ ██ ██  ██ 
@@ -116,15 +113,21 @@
 -->
 
                 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                    <p>C'est dans le cadre de ma formation à la Manche Open School que j'ai pu aquérir mes premières connaissances sur ce sujet.<br><br> Je suis aujourd'hui en mesure de <strong>créer un réseau</strong> d'entreprise avec les différents services
-                        nécessaires à son bon fonctionnement et sa sécurité.<br>
-                        <br>Une fois cette étape réalisée, je suis également capable de mettre en place une <strong>infrastructure numérique</strong> en accord avec les besoins tant pour assurer une surveillance constante que pour fournir des outils qui
-                        facilitent le quotidien de l'entreprise.
-                        <br>Que ce soit des solutions agiles, une plateforme de discussion, la téléphonie,...<br>
-                        <br>Je suis plus axé sur des solutions open source mais connait également Windows Server et les solutions qui en découlent.
+                    <p>Je maîtrise plusieurs axes de l'administration système et réseaux, je suis néanmoins spécialisé
+                        dans l'Open Source :<br><br>
+                        <strong>Desktop et serveur :</strong> Windows, Linux (Deb et RH).<br>
+                        <strong>Routeur :</strong> FreeBSD, PFSense, OPNSense.<br>
+                        <strong>Virtualisation :</strong> Proxmox, ESXI, Hyper-V, Docker.<br>
+                        <strong>VOIP :</strong> FreePBX.<br>
+                        <strong>Serveur mail :</strong> Bluemind, Zimbra, Exchange.<br>
+                        <strong>Supervision :</strong> Centreon, Nagios.<br>
+                        <strong>Ticketing :</strong> ITSM, Easyvista, GLPI.<br>
+                        <strong>Inventaire :</strong> OCSInventory.<br>
+                        <strong>Gestion de projet :</strong> Tuleap, Redmine.<br>
+                        <strong>CMS web :</strong> WordPress, Drupal, Typo3, Prestashop.<br>
                     </p>
                 </div>
-                <!--    
+<!--    
 ██████  ███████ ███████ ██  ██████  ███    ██ 
 ██   ██ ██      ██      ██ ██       ████   ██ 
 ██   ██ █████   ███████ ██ ██   ███ ██ ██  ██ 
@@ -134,15 +137,14 @@
 
                 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
                     <p>
-                        Bénéficiant de plusieurs outils et ayant réalisé de nombreux logos, je peux rapidement faire une première ébauche après avoir compris votre activité, ce que vous souhaitez transmettre en terme d’image et les tendances actuelles que vous aimez. Et si vous
-                        n’avez que peu d’idées, je vous accompagne pour que vous ayez un logo qui vous plaise et corresponde à votre entreprise.
-                    </p>
-                    <p>
-                        De nos jours, si l’on veut toucher le plus de personnes possible en un temps limité, la communication sur les réseaux sociaux passe par la publication de vidéos. Cependant, il est complexe de se lancer dans le montage sans connaissance préalable et les
-                        logiciels ont un coût démesuré. Alors, tournez, je m’occuperais du montage. Et si vous n’avez pas ou peu de contenu vidéo, on peut facilement trouver des séquences qui vous plairons et saurons compenser.
+                        Afin de mettre en avant un site internet, j'ai aussi apris à créer des logos, effectuer des montages photos et monter des vidéos.<br>
+                        J'ai longuement travaillé sur la suite <strong>Adobe</strong> et peux travailler sur Photoshop, XD et Illustrator.<br>
+                        De par mes préférences, je travaille habituellement sur des logiciels similaires mais <strong>Open Source</strong>.<br>
+                        Je suis également familier avec des solutions web tel que <strong>Canva</strong>.<br>
+                        Passionné par l'impression <strong>3D</strong>, je modélise souvent les pièces que j'imprime par la suite.<br>
                     </p>
                 </div>
-                <!--            
+<!--            
 ██████   █████  ██████   ██████  ██████  ██    ██ ██████  ███████ 
 ██   ██ ██   ██ ██   ██ ██      ██    ██ ██    ██ ██   ██ ██      
 ██████  ███████ ██████  ██      ██    ██ ██    ██ ██████  ███████ 
@@ -150,27 +152,45 @@
 ██      ██   ██ ██   ██  ██████  ██████   ██████  ██   ██ ███████ 
 -->
                 <div class="tab-pane fade" id="pills-parcours" role="tabpanel" aria-labelledby="pills-parcours-tab">
-                    <h5>Ma première carrière</h5>
-                    <p>Étant enfant, j'étais intéressé par l'informatique et l'hôtellerie-restauration. J'ai suivi un bac technologique Hôtellerie-Restauration suivi d'un BTS Responsable de l'Hébergement au Lycée Hôtelier du Touquet. J'avais alors décidé
-                        de conserver l'informatique en tant que passion.<br> J'ai alors rapidement été embauché par le groupe Accor <a href="https://fr.wikipedia.org/wiki/Accor" target="blank"> (plus d'informations sur le groupe) </a> pour lequel j'ai
-                        travaillé pendant plus de 7 ans. J'ai travaillé en France mais aussi à l'étranger : en Allemagne et en Grande-Bretagne (à Londres).<br> J'ai débuté en tant que réceptionniste jusqu'à devenir assistant de direction grâce à une rigueur,
-                        un sens de l'organisation et une fiabilité reconnus par mes pairs. Lors de mon dernier poste à l'hôtel Ibis London Greenwich, j'ai appris à gérer le quotidien d'un hôtel de 120 chambres ainsi que le management d'une équipe.<br>                        Durant cette période, mon employeur, ayant détecté mes capacités informatiques, a régulièrement fait appel à moi pour des travaux divers dans ce domaine, tels des manipulations sur des serveurs ou la création d'outils de communication
-                        pour faciliter des formations internes.<br> J'ai ensuite eu une décision à prendre : entamer une session de formation interne en Grande-Bretagne afin obtenir une promotion dans l'hôtellerie ou rentrer en France pour creuser les
-                        fondations vers une professionnalisation de ma passion tout en fondant ma propre famille. Suite à de nombreuses discussions personnelles et professionnelles, j'ai pris la décision de revenir en France.
-                    </p>
-                    <h5>Ma reconversion professionnelle</h5>
-                    Il a d'abord fallu trouver une école tout en me formant en ligne. J'ai ensuite eu la chance de trouver la Manche Open School <a href="https://blog.emploi-store.fr/manche-open-school-ecole-seconde-chance-former-secteur-numerique/" target="blank">(leur site ayant fermé, il s'agit là d'un article)</a>                    qui recherchait des candidats motivés.<br> Grâce aux compétences que j'avais acquises, celles engrangées lors de ma recherche et à la formation que j'ai validées à la Manche Open School, je suis aujourd'hui capable de proposer mes
-                    services à une entreprise dans le domaine de l'informatique.<br> Suite à ce parcours, j'ai été embauché et CODiLOG <a href="http://codilog.fr/" target="blank">(plus d'informations sur l'entreprise)</a> a pooursuivi ma formation, en
-                    tant qu'administrateur-consultant sur le logiciel SAP. Après y avoir travaillé pendant un an, j'ai pu continuer en tant qu'administrateur système et réseau auprès de FactorFX <a href="http://factorfx.com/" target="blank">(plus d'informations sur l'entreprise)</a>
-                    </p>
-                    <h5>Mes passions</h5>
-                    J'apprécie aujourd'hui de pouvoir à la fois faire évoluer mes connaissances, fournir satisfaction dans mon nouveau job et passer du temps avec ma famille. J'aide également bénévolement quelques associations dans leur communication numériques.<br>                    Je participe aussi à quelques concours dans l'informatique comme le hackathon organisé par Granville Digital ou le startup week-end de Saint-Lô. Ces concours m'aident à réfléchir différemment tout en me permettant de m’améliorer encore
-                    sur l'organisation, le travail en équipe, la créativité et la présentation d’un projet.
+                    <p>
+                        C'est à l'âge de 15 ans où je me suis dirigé vers un BAC Technologique Hôtellerie-Restauration puis un BTS Responsable de lh'Hébergement.<br>
+                        En 2011, mes parents ouvrent un restaurant. Ils avaient la volonté d'avoir un <strong>site internet</strong> mais le coût était prohibitif.<br>
+                        Afin de les assister, j'ai effectué un apprentissage rapide et efficace de la structure d'un site et de son hébergement.<br>
+                        Quelques jours après, mon premier site était <strong>visible et disponible</strong> sur le net, avec des commentaires clients positifs.<br>
+                        <br>
+                        Cette expérience m'a causé mon premier conflit. <strong>J'aimais l'hôtellerie mais l'informatique me passionnait.</strong><br>
+                        Je décidais de continuer l'hôtellerie avec le groupe <strong>Accor</strong>, gardant l'informatique comme passion.<br>
+                        7 ans plus tard, je suis assistant manager de l'Ibis London Greenwich et plusieurs projets avec le siège Accor UK relatifs à l'informatique, je décide de me <strong>reconvertir</strong>.<br>
+                        <br>
+                        Pour ce faire, j'ai suivi plusieurs formations en ligne puis une session avec la <strong>Manche Open School</strong> (institut de formation spécialisé dans l'Open Source).<br>
+                        C'est d'ailleurs lors de cette formaiton que j'ai pu participer à des <strong>Hackathons et Start-up Weekend</strong>, améliorant mes capacités et ma créativité.<br>
+                        J'ai ensuite travaillé 1 an pour Codilog en tant que <strong>consultant-administrateur SAP</strong> puis 6 mois pour FactorFX en tant qu'<strong>administrateur système</strong>.<br>
+                        <br>
+                        Ces expériences passés, j'ai souhaité me spécialiser dans le web, entamant une alternance en tant que <strong>Chef de Projet Web et Stratégie Digitale</strong> auprès du FIM CCI Saint-Lô.<br>
+                        Cette alternance s'effectue avec <strong>CTSA Sinistres et Forma'Sinistres</strong>, des entreprise de Granville spécialisés respectivement dans le traitement et la formation après-sinistres.
                     </p>
                 </div>
             </div>
         </div>
-        <!--            
+<!--
+     ██ ██    ██ ███    ███ ██████   ██████  
+     ██ ██    ██ ████  ████ ██   ██ ██    ██ 
+     ██ ██    ██ ██ ████ ██ ██████  ██    ██ 
+██   ██ ██    ██ ██  ██  ██ ██   ██ ██    ██ 
+ █████   ██████  ██      ██ ██████   ██████  
+-->
+        <div class="bg-image p-5 text-center shadow-1-strong rounded mb-5 text-white"
+            style="background-image: url('jumbo.png');">
+            <h1 class="mb-3 h2">Besoin d'un prestataire ?</h1>
+
+            <p>
+                Rendez vous sur le site de mon entreprise ici :
+            </p>
+            <a href="https://vdnet.fr/">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Cliquez ici</button>
+            </a>
+        </div>
+<!--            
  ██████  ██████   ██████  ██████  ██████  
 ██      ██    ██ ██    ██ ██   ██ ██   ██ 
 ██      ██    ██ ██    ██ ██████  ██   ██ 
@@ -185,22 +205,35 @@
             <h5>✉ contact@vdnet.fr</h5>
             <h5>☎ 06 82 12 35 83</h5>
         </div>
-        <!--    
+<!--    
 ███████  ██████   ██████  ████████ ███████ ██████  
 ██      ██    ██ ██    ██    ██    ██      ██   ██ 
 █████   ██    ██ ██    ██    ██    █████   ██████  
 ██      ██    ██ ██    ██    ██    ██      ██   ██ 
 ██       ██████   ██████     ██    ███████ ██   ██ 
 -->
-        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-dark">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
-                <span class="text-muted">© 2022 Valentin Dubrulle</span>
+                <a href="https://www.ovhcloud.com/fr/"><span class="text-muted">Site hébergé par OVH</span></a>
             </div>
             <ul class="nav col-md-4 justify-content-center list-unstyled d-flex">
-                <li class="ms-3"><a class="text-muted" href="https://twitter.com/Valenti69229116"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"><i class="bi bi-twitter"></i></use></svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="https://github.com/vinaty"><svg class="bi" width="24" height="24"><use xlink:href="#github"><i class="bi bi-github"></i></use></svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/valentin.dubrulle"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"><i class="bi bi-facebook"></i></use></svg></a></li>
-                <li class="ms-3"><a class="text-muted" href="https://www.linkedin.com/in/valentin-dubrulle-936986182/"><svg class="bi" width="24" height="24"><use xlink:href="#linkedin"><i class="bi bi-linkedin"></i></use></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://twitter.com/Valenti69229116"><svg class="bi"
+                            width="24" height="24">
+                            <use xlink:href="#twitter"><i class="bi bi-twitter"></i></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://github.com/vinaty"><svg class="bi" width="24"
+                            height="24">
+                            <use xlink:href="#github"><i class="bi bi-github"></i></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/valentin.dubrulle"><svg class="bi"
+                            width="24" height="24">
+                            <use xlink:href="#facebook"><i class="bi bi-facebook"></i></use>
+                        </svg></a></li>
+                <li class="ms-3"><a class="text-muted"
+                        href="https://www.linkedin.com/in/valentin-dubrulle-936986182/"><svg class="bi" width="24"
+                            height="24">
+                            <use xlink:href="#linkedin"><i class="bi bi-linkedin"></i></use>
+                        </svg></a></li>
             </ul>
             <div class="nav col-md-4 justify-content-end">
                 <a href="#top">
@@ -209,7 +242,7 @@
             </div>
         </footer>
     </section>
-    <!--
+<!--
 ███████╗ ██████╗██████╗ ██╗██████╗ ████████╗
 ██╔════╝██╔════╝██╔══██╗██║██╔══██╗╚══██╔══╝
 ███████╗██║     ██████╔╝██║██████╔╝   ██║   
@@ -217,7 +250,9 @@
 ███████║╚██████╗██║  ██║██║██║        ██║   
 ╚══════╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝        ╚═╝                                                                 
 -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js "
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p "
+        crossorigin="anonymous "></script>
 </body>
 
 </html>
